@@ -118,8 +118,8 @@ export default function AuthPage() {
             <div style={{ fontSize: 12, color: 'var(--text-muted)', textAlign: 'center' }}>
               <div style={{ fontWeight: 600, marginBottom: 8 }}>Demo kirish uchun:</div>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 6 }}>
-                <button className="btn btn-ghost btn-sm" onClick={() => demoLogin('director@datasite.uz')}>👔 Direktor</button>
-                <button className="btn btn-ghost btn-sm" onClick={() => demoLogin('admin@datasite.uz')}>⚙️ Admin</button>
+                {/* <button className="btn btn-ghost btn-sm" onClick={() => demoLogin('director@datasite.uz')}>👔 Direktor</button>
+                <button className="btn btn-ghost btn-sm" onClick={() => demoLogin('admin@datasite.uz')}>⚙️ Admin</button> */}
                 <button className="btn btn-ghost btn-sm" onClick={() => demoLogin('alisher@datasite.uz')}>👩‍🏫 O'qituvchi</button>
                 <button className="btn btn-ghost btn-sm" onClick={() => demoLogin('jasur@student.uz')}>🎓 O'quvchi</button>
               </div>
